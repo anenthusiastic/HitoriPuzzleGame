@@ -1,9 +1,4 @@
 TR
-
-GitHub deposundaki dosya yapısına (`hitori-bulmaca.py` ve `hitori_bulmaca.txt`) dayanarak, bu proje için uygun ve açıklayıcı bir `README.md` dosyasını aşağıda hazırladım.
-
-Bu taslak, projenin Python ile yazıldığını ve bir metin dosyasından veri okuyarak çalıştığını varsaymaktadır.
-
 ---
 
 # Hitori Puzzle Game (Hitori Bulmaca Oyunu)
@@ -12,12 +7,12 @@ Bu proje, mantık tabanlı bir sayı bulmacası olan **Hitori** oyununun Python 
 
 ## 🎯 Proje Hakkında
 
-Hitori, bir ızgara (grid) üzerindeki sayıları belirli kurallara göre eleyerek çözülen bir Japon mantık bulmacasıdır. Bu depo, bulmacayı çözmek veya oynamak için gerekli kaynak kodları ve örnek veri dosyalarını barındırır.
+Hitori, bir ızgara (grid) üzerindeki sayıları belirli kurallara göre eleyerek çözülen bir Japon mantık bulmacasıdır. Bu repo, bulmacayı çözmek veya oynamak için gerekli kaynak kodları ve örnek veri dosyalarını barındırır.
 
 ### Dosya Yapısı
 
 * `hitori-bulmaca.py`: Projenin ana kaynak kodudur. Oyunun mantığını, kurallarını ve çalışma prensiplerini içerir.
-* `hitori_bulmaca.txt`: Bulmaca verilerini içeren dosya. Muhtemelen oyunun başlangıç durumunu veya çözülecek bulmaca matrisini barındırmaktadır.
+* `hitori_bulmaca.txt`: Bulmaca verilerini içeren dosya. Oyunun başlangıç durumunu veya çözülecek bulmaca matrisini barındırmaktadır.
 
 ## 🚀 Kurulum ve Çalıştırma
 
@@ -46,7 +41,7 @@ python hitori-bulmaca.py
 
 ```
 
-*Not: Script, `hitori_bulmaca.txt` dosyasını girdi olarak kullanıyor olabilir. Bu dosyanın script ile aynı dizinde olduğundan emin olun.*
+*Not: Script, `hitori_bulmaca.txt` dosyasını girdi olarak kullanıyor. Bu dosyanın script ile aynı dizinde olduğundan emin olun.*
 
 ## 🛠 Kullanım
 
@@ -85,7 +80,7 @@ Hitori is a Japanese logic puzzle solved by eliminating numbers on a grid accord
 File Structure
 hitori-bulmaca.py: The main source code of the project. It contains the game logic, rules, and working principles.
 
-hitori_bulmaca.txt: The file containing puzzle data. It likely holds the initial game state or the puzzle matrix to be solved.
+hitori_bulmaca.txt: The file containing puzzle data. It holds the initial game state or the puzzle matrix to be solved.
 
 🚀 Installation and Execution
 You can follow the steps below to run this project on your local machine.
@@ -104,7 +99,7 @@ After entering the project directory, run the Python file:
 
 Bash
 python hitori-bulmaca.py
-Note: The script likely uses the hitori_bulmaca.txt file as input. Ensure this file is located in the same directory as the script.
+Note: The script uses the hitori_bulmaca.txt file as input. Ensure this file is located in the same directory as the script.
 
 🛠 Usage
 When the application is run, it may load the puzzle from hitori_bulmaca.txt and either print the solution to the screen or offer an interactive gaming experience.
